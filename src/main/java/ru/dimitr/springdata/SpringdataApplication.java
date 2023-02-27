@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import ru.dimitr.springdata.entity.Person;
 import ru.dimitr.springdata.jdbc.PersonJdbcDao;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class SpringdataApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {

@@ -1,12 +1,26 @@
 package ru.dimitr.springdata.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
 public class Person {
+    @Id
+    @GeneratedValue
     private int id;
+
     private String firstName;
     private String lastName;
     private String adress;
 
     public Person() {
+    }
+
+    public Person(String firstName, String lastName, String adress) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.adress = adress;
     }
 
     public Person(int id, String firstName, String lastName, String adress) {
