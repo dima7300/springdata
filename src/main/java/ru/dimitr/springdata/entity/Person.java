@@ -14,6 +14,8 @@ public class Person {
     private String lastName;
     private String adress;
 
+//    private String sudo;
+
     public Person() {
     }
 
@@ -21,6 +23,7 @@ public class Person {
         this.firstName = firstName;
         this.lastName = lastName;
         this.adress = adress;
+
     }
 
     public Person(int id, String firstName, String lastName, String adress) {
